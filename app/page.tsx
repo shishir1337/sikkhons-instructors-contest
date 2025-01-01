@@ -437,8 +437,9 @@ export default function CampaignPage() {
                 imposed by their central bank, Sikkhon is not responsible.
               </li>
               <li>
-                Sikkhon employees, as well as their friends and family members,
-                are not eligible to participate in this contest.
+                Sikkhon employees, individuals associated with SikkShon, and
+                their friends and family members are not eligible to participate
+                in this contest.
               </li>
               <li>
                 Sikkhon reserves the right to postpone or cancel the contest
