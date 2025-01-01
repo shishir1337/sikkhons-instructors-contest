@@ -44,7 +44,7 @@ const Header = () => {
 
         {/* Mobile Menu Button */}
         <button
-          className="md:hidden text-gray-600 hover:text-blue-600 transition-colors"
+          className="md:hidden text-gray-800 font-medium hover:text-blue-600 transition-colors"
           onClick={toggleMenu}
           aria-label="Toggle menu"
         >
