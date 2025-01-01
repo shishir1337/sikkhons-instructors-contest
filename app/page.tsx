@@ -17,6 +17,7 @@ import {
 } from "lucide-react";
 import { useState } from "react";
 import Link from "next/link";
+import Header from "@/components/Header";
 
 export default function CampaignPage() {
   const [openFaqIndex, setOpenFaqIndex] = useState<number | null>(null);
@@ -27,6 +28,7 @@ export default function CampaignPage() {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white">
+      <Header />
       {/* Hero Section */}
       <section className="bg-blue-950 text-white py-12 sm:py-16 md:py-24 lg:py-32">
         <div className="container mx-auto px-4">
