@@ -26,15 +26,6 @@ const Header = () => {
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-6">
-          <Link href="https://sikkhon.com" className="text-gray-800 hover:text-blue-600 font-medium transition-colors">
-            Home
-          </Link>
-          <Link href="https://sikkhon.com/courses" className="text-gray-800 hover:text-blue-600 font-medium transition-colors">
-            Courses
-          </Link>
-          <Link href="https://sikkhon.com/blog" className="text-gray-800 hover:text-blue-600 font-medium transition-colors">
-            Blog
-          </Link>
           <Link href="https://sikkhon.com/instructor-registration/" passHref>
             <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white">
               Become an Instructor
@@ -56,15 +47,6 @@ const Header = () => {
       {isMenuOpen && (
         <nav className="md:hidden bg-white border-t border-gray-200">
           <div className="container mx-auto px-4 py-4 flex flex-col space-y-4">
-            <Link href="https://sikkhon.com" className="text-gray-600 hover:text-blue-600 transition-colors">
-              Home
-            </Link>
-            <Link href="https://sikkhon.com/courses" className="text-gray-600 hover:text-blue-600 transition-colors">
-              Courses
-            </Link>
-            <Link href="https://sikkhon.com/blog" className="text-gray-600 hover:text-blue-600 transition-colors">
-              Blog
-            </Link>
             <Link href="https://sikkhon.com/instructor-registration/" passHref>
               <Button size="sm" className="bg-blue-600 hover:bg-blue-700 text-white w-full">
                 Become an Instructor
